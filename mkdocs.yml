@@ -29,6 +29,8 @@ extra:
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/UTCS_SA
+    - icon: fontawesome/brands/github
+      link: https://github.com/CS-UT
 
 # Plugins
 plugins:
@@ -52,10 +54,8 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# Navigation
 nav:
-  - استگانوگرافی: steganography.md
-
+  - استگانوگرافی: steganography/index.md
 # Extra CSS
 extra_css:
   - stylesheets/vazir.css
