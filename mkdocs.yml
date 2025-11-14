@@ -8,6 +8,10 @@ theme:
   language: fa
   logo: images/csut_white_transparent_logo.png
   favicon: images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
   palette:
     # Light mode
     - scheme: default
@@ -35,6 +39,12 @@ extra:
 # Plugins
 plugins:
   - search
+  - material/blog:
+      blog_dir: blog
+      authors_file: .authors.yml
+  - footermatter:
+      author_map:
+        - "محمدعرفان گونه | | "
 
 # Markdown extensions
 markdown_extensions:
@@ -55,7 +65,12 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - استگانوگرافی: steganography/index.md
+  - خانه: index.md
+  - بلاگ:
+    - بلاگ: blog/index.md
+  - مقالات:
+    - فهرست مقالات: articles/index.md
+    - استگانوگرافی: articles/steganography/index.md
 # Extra CSS
 extra_css:
   - stylesheets/vazir.css
