@@ -1,8 +1,0 @@
----
-hide:
-  - navigation
----
-
-# برچسب‌ها
-
-[TAGS]
