@@ -1,0 +1,55 @@
+/* Vazir Font - Local Files */
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir.woff2') format('woff2'),
+       url('/fonts/Vazir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir-Light.woff2') format('woff2'),
+       url('/fonts/Vazir-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir-Medium.woff2') format('woff2'),
+       url('/fonts/Vazir-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir-Bold.woff2') format('woff2'),
+       url('/fonts/Vazir-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply Vazir font using Material for MkDocs CSS variables */
+:root {
+  --md-text-font: "Vazir", sans-serif !important;
+  --md-code-font: "Vazir", monospace !important;
+}
+
+/* Directly apply font to ensure it loads */
+body,
+.md-typeset {
+  font-family: "Vazir", sans-serif !important;
+}
+
+code,
+pre,
+.md-typeset code,
+.md-typeset pre {
+  font-family: "Vazir", monospace !important;
+}

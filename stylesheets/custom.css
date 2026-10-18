@@ -1,0 +1,12 @@
+/* Make logo bigger */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2.5rem !important;
+    width: auto !important;
+}
+
+/* Adjust header to accommodate larger logo */
+.md-header__inner {
+    padding: 0.4rem 0.8rem;
+}
+
